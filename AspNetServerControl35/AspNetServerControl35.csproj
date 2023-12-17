@@ -64,6 +64,7 @@
     <Content Include="AspDataGrid.aspx" />
     <Content Include="AspDataList.aspx" />
     <Content Include="AspRepeater.aspx" />
+    <Content Include="AspRequiredFieldValidator.aspx" />
     <Content Include="Web.config" />
     <Content Include="Site.Master" />
   </ItemGroup>
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="AspRepeater.aspx.designer.cs">
       <DependentUpon>AspRepeater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspRequiredFieldValidator.aspx.cs">
+      <DependentUpon>AspRequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspRequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>AspRequiredFieldValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductContext.cs" />
