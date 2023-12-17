@@ -61,11 +61,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AspDataGrid.aspx" />
+    <Content Include="AspDataList.aspx" />
     <Content Include="AspRepeater.aspx" />
     <Content Include="Web.config" />
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AspDataGrid.aspx.cs">
+      <DependentUpon>AspDataGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspDataGrid.aspx.designer.cs">
+      <DependentUpon>AspDataGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspDataList.aspx.cs">
+      <DependentUpon>AspDataList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspDataList.aspx.designer.cs">
+      <DependentUpon>AspDataList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AspRepeater.aspx.cs">
       <DependentUpon>AspRepeater.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

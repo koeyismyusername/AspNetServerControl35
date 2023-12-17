@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AspRepeater.aspx.cs" Inherits="AspNetServerControl35.AspRepeater" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Repeater ID="repeater" runat="server">
+    <asp:Repeater ID="repeater" runat="server" >
         <HeaderTemplate>
             <table>
                 <thead>
